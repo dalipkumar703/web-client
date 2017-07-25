@@ -1,0 +1,26 @@
+{
+  "name": "web-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ddp": "^0.12.1",
+    "ddp-client": "^0.1.1",
+    "react": "^15.6.1",
+    "react-ddp": "^1.1.11",
+    "react-dom": "^15.6.1",
+    "react-mixin": "^3.0.5",
+    "react-native": "^0.46.4",
+    "react-native-meteor": "^1.1.0",
+    "react-redux": "^5.0.5",
+    "react-scripts": "1.0.10",
+    "redux": "^3.7.2",
+    "require": "^2.4.20",
+    "url": "^0.11.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

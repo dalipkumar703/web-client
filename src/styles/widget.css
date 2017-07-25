@@ -1,0 +1,45 @@
+.widget-container * {
+    box-sizing: border-box;
+    font-family: arial;
+}
+.widget-container {
+    position: fixed;
+    bottom: 5px;
+    right: 20px;
+    z-index: 99999;
+    background-color: #edeff1;
+    width: 300px;
+    -webkit-transform: translateY(103%);
+    transform: translateY(103%);
+    -webkit-transition: transform .3s;
+    transition: transform .3s;
+    -webkit-box-shadow: 3px 7px 20px -4px rgba(0, 0, 0, 0.35);
+    box-shadow: 3px 7px 20px -4px rgba(0, 0, 0, 0.35);
+    border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+}
+.widget-container.opened {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.chat-header {
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.chat-header:before {
+    position: absolute;
+    right: 12px;
+    color: #fff;
+    font-size: 20px;
+    /*content: "✖";
+    */
+}
