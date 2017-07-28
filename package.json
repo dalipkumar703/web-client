@@ -14,6 +14,7 @@
     "react-redux": "^5.0.5",
     "react-scripts": "1.0.10",
     "redux": "^3.7.2",
+    "redux-saga": "^0.15.6",
     "require": "^2.4.20",
     "url": "^0.11.0"
   },

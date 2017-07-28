@@ -1,4 +1,3 @@
-
 const input = (state = [], action) => {
   switch (action.type) {
     case 'Message':
